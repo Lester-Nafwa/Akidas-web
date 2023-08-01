@@ -1,0 +1,33 @@
+.dashboard {
+  display: flex;
+  width: 80%;
+  gap: 5em;
+  margin-top: 3em;
+  background: burlywood;
+  height: 4em;
+  align-items: center;
+  padding-right: 4em;
+  border-radius: 1em;
+  margin-left: 6em;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.dashboard-item a {
+  padding-left: 4em;
+  border-right: solid #f7f2f2;
+  padding-right: 3em;
+  font-family: lato;
+  font-weight: 700;
+  color: whitesmoke;
+  text-decoration: none;
+}
+ 
+ 
+
+
+
+
+
+
+ 
+

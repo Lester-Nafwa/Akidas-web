@@ -1,0 +1,80 @@
+.contact-form {
+  margin-left: 10%;
+  margin-top: 3em;
+  border: solid rgb(143, 138, 138);
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 4em;
+  padding-bottom: 3em;
+  width: 40em;
+  border-radius: 0.5em;
+}
+input {
+  width: 90%;
+  height: 0.5em;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  border: solid grey;
+  outline: none;
+}
+textarea {
+  width: 95%;
+  height: 8em;
+  border-radius: 1em;
+  padding-left: 2em;
+  padding-top: 3em;
+}
+.contact-submit {
+  background: rgb(104, 71, 10);
+  color: rgb(228, 236, 236);
+  width: 100%;
+  height: 3em;
+  border: none;
+  border-radius: 1em;
+  font-weight: 400;
+}
+.btn-icon-sub {
+  margin-top: 1em;
+}
+.contact-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: rgb(104, 71, 10);
+}
+.contact-section {
+  display: flex;
+  gap: 4em;
+}
+.contact-details {
+  margin-top: 3em;
+  gap: 2em;
+  margin-left: 3em;
+}
+.details-title {
+  font-size: 2em;
+  font-family: lato;
+  color: rgb(213, 213, 141);
+}
+.contact-details-title {
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+.details-contact {
+  margin-bottom: 3em;
+  font-family: lato;
+  color: grey;
+  font-size: 1.2em;
+}
+.contact-address {
+  display: flex;
+  gap: 0.5em;
+}
+.phone-details{
+
+    display: flex;
+    gap: 0.5em;
+}
+.email-details{
+    display: flex;
+}
