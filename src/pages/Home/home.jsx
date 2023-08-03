@@ -9,7 +9,7 @@ const Home = () => {
           <div>
             {" "}
             <img
-              src="/assets/machinery.png"
+              src="Akidas-web/assets/machinery.png"
               className="currosel-img"
               alt="Machinery"
             />
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="/assets/equioments.png"
+              src="Akidas-web/assets/equioments.png"
               className="currosel-img"
               alt="Equipments"
             />
@@ -32,7 +32,7 @@ const Home = () => {
           <div>
             {" "}
             <img
-              src="/assets/medicene.png"
+              src="Akidas-web/assets/medicene.png"
               className="currosel-img"
               alt="Med"
             />
@@ -47,10 +47,10 @@ const Home = () => {
       <div className="home-elemets">
         <hr />
         <div className="item-home">
-          <a href="/about" className="about-home">
+          <a href="Akidas-web/about" className="about-home">
             <span className="about-home-text">About Us</span>
           </a>
-          <a href="/product" className="about-product">
+          <a href="/Akidas-web/product" className="about-product">
             <span className="about-home-text">Our Products</span>
           </a>
         </div>
@@ -60,13 +60,13 @@ const Home = () => {
         <div className="socia-handle">
           <div className="icons-social">
             <div>
-              <img src="/assets/facebook.png" className="icon-img" />
+              <img src="Akidas-web/assets/facebook.png" className="icon-img" />
             </div>
             <span>Facebook</span>
           </div>
           <div className="icons-social">
             <div>
-              <img src="/assets/twittericon.png" className="icon-img" />
+              <img src="Akidas-web/assets/twittericon.png" className="icon-img" />
             </div>
             <div>
               {" "}
@@ -75,7 +75,7 @@ const Home = () => {
           </div>
           <div className="icons-social">
             <div>
-              <img src="/assets/youtubeicon.png" className="icon-img" />
+              <img src="Akidas-web/assets/youtubeicon.png" className="icon-img" />
             </div>
             <div>
               {" "}

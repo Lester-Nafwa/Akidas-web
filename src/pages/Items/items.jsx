@@ -82,7 +82,7 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src="/assets/mc150.png" className="img-itesss" />
+                  <img src={process.env.PUBLIC_URL + "/assets/mc150.png"} className="img-itesss" />
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Items = () => {
                     </p>
                   </div>
                   <div>
-                    <img src="/assets/mc120.png" className="img-itesss" />
+                    <img src={process.env.PUBLIC_URL + "/assets/mc120.png" }className="img-itesss" />
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src="/assets/mc120-A.png" className="img-itesss" />
+                  <img src={process.env.PUBLIC_URL + "/assets/mc120-A.png" }className="img-itesss" />
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src="/assets/universsal.png" className="img-itesss" />
+                  <img src={process.env.PUBLIC_URL + "/assets/universsal.png" }className="img-itesss" />
                 </div>
               </div>
             </div>

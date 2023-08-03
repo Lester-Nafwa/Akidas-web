@@ -78,7 +78,7 @@ const About = () => {
                 <div className="medi">
                   <div>
                     {" "}
-                    <img src="/assets/medi-png.svg" className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/medi-png.svg"} className="client-img" />
                   </div>
                   <div>
                     {" "}
@@ -88,7 +88,7 @@ const About = () => {
                 <div className="soma">
                   <div>
                     {" "}
-                    <img src="/assets/somali.png" className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/somali.png" }className="client-img" />
                   </div>
                   <div>
                     {" "}
@@ -98,7 +98,7 @@ const About = () => {
                 <div className="ameed">
                   <div>
                     {" "}
-                    <img src="/assets/aamin.png" className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/aamin.png" }className="client-img" />
                   </div>
 
                   <div>
