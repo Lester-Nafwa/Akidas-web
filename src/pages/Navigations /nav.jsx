@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="dashboard">
       <div className="dashboard-item">
         {" "}
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
       </div>
       <div className="dashboard-item">
         {" "}
@@ -15,7 +15,7 @@ const Nav = () => {
       </div>
       <div className="dashboard-item">
         {" "}
-        <Link to="/products">Our Products</Link>
+        <Link to="/product">Our Products</Link>
       </div>
       <div className="dashboard-item">
         {" "}

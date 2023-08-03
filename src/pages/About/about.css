@@ -1,8 +1,126 @@
 .about-item {
   margin-top: 2em;
-  margin-left: 6em;
+  margin-left: 7em;
   margin-right: 8em;
-  height: 100%;
+  width: 75%;
   position: relative;
   color: black;
+  padding: 4em;
+  background-color: whitesmoke;
+  box-shadow: 3em;
+  border-radius: 1em;
+  overscroll-behavior: contain;
+}
+.mgt-img {
+  height: 15em;
+  width: 15em;
+  border-radius: 5em;
+  margin-left: 3em;
+}
+.mgt-area {
+  display: flex;
+}
+.mgt-title {
+  font-size: 1.5em;
+  font-family: lato;
+  font-weight: 500;
+  font-style: oblique;
+}
+.mgt-item {
+  margin-bottom: 0.8em;
+  margin-left: 50%;
+}
+.mgt-ceo {
+  font-size: 1.2em;
+  font-family: lato;
+  font-weight: 400;
+}
+.adawe-title {
+  margin-left: 4em;
+  margin-top: 2em;
+  background-color: rgb(189, 105, 105);
+  color: white;
+  padding: 0.3em;
+  border-radius: 0.5em;
+}
+.ceo-bio {
+  text-align: justify;
+  line-height: 3em;
+}
+.title-wahat {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 400;
+}
+.what-details {
+  text-align: justify;
+  line-height: 3em;
+}
+.partner-details {
+  font-size: 1.5em;
+  font-family: lato;
+  font-weight: 300;
+  text-align: center;
+  font-style: oblique;
+}
+.distributor {
+  text-align: justify;
+  line-height: 3em;
+  margin-left: 9em;
+}
+.our-client {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 400;
+}
+.our-client-details {
+  text-align: justify;
+  line-height: 3em;
+  margin-left: 5em;
+}
+.medi {
+  color: rgb(12, 97, 68);
+  font-style: oblique;
+}
+.soma {
+  color: rgb(97, 12, 84);
+  font-style: oblique;
+}
+.ameed {
+  color: brown;
+  font-style: oblique;
+}
+.client-list {
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+}
+.details-cleinet {
+  margin-left: 11em;
+}
+.mission-vision {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 400;
+  
+}
+.misssion-det {
+  text-align: center;
+
+  line-height: 3em;
+}
+.mission-tit{
+  color: rgb(6, 28, 134);
+  font-size: 1.3em;
+  font-weight: 350;
+}
+.values-tit{
+  color: rgb(134, 6, 121);
+  font-size: 1.3em;
+  font-weight: 350;
+
+}
+.client-img{
+  width: 18em;
+  height: 7em;
 }

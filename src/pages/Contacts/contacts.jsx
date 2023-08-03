@@ -1,5 +1,6 @@
 import React from "react";
 import "./contacts.css";
+
 const Contact = () => {
   return (
     <div className="contact-section">
@@ -39,7 +40,7 @@ const Contact = () => {
         </div>
 
         <div className="details-contact">
-          <span>AKIDAS Pharmaceuticals and Medical Supplies</span>
+          <span>AKIDAS Pharmaceuticals & Medical Supplies</span>
         </div>
 
         <div className="details-contact">
@@ -48,8 +49,14 @@ const Contact = () => {
               <span>Address :</span>
             </div>
             <div>
-             <div> <span>Nairobi, Kenya </span></div> 
-             <div> <span>Mogadishu, Somalia </span></div> 
+              <div>
+                {" "}
+                <span>Nairobi, Kenya </span>
+              </div>
+              <div>
+                {" "}
+                <span>Mogadishu, Somalia </span>
+              </div>
             </div>
           </div>
         </div>
@@ -80,6 +87,32 @@ const Contact = () => {
         </div>
         <div className="details-contact">
           <span></span>
+        </div>
+        <div className="social-handle">
+          <div className="icons-social">
+            <div>
+              <img src="/assets/facebook.png" className="icon-img" />
+            </div>
+            <span>Facebook</span>
+          </div>
+          <div className="icons-social">
+            <div>
+              <img src="/assets/twittericon.png" className="icon-img" />
+            </div>
+            <div>
+              {" "}
+              <span>Twitter</span>
+            </div>
+          </div>
+          <div className="icons-social">
+            <div>
+              <img src="/assets/youtubeicon.png" className="icon-img" />
+            </div>
+            <div>
+              {" "}
+              <span>Youtube</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

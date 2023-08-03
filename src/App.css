@@ -1,3 +1,17 @@
 .nav-item {
   margin-bottom: 2em;
 }
+.img-prof {
+  height: 4em;
+  border-radius: 9em;
+  margin-left: 35%;
+}
+ 
+.mount-comp{
+  overflow-y: hidden;
+}
+.title-sub{
+  margin-left: 40%;
+  font-style: oblique;
+  font-size: 1.5em;
+}

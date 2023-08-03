@@ -5,48 +5,60 @@ const About = () => {
   return (
     <div>
       <div className="about-item">
-        <div>
+        <div className="title-wahat">
           {" "}
-          <span>What We Do ? </span>
+          <span>Overview </span>
         </div>
-        <div>
+        <div className="what-details">
           {" "}
           <p>
             {" "}
             AKIDAS is a pharmaceutical and medical equipment distribution
-            company based in Somalia , Mogadishu. The company has over year
-            operational experience and an extensive understanding on Somalia
-            health and medical needs. AKIDAS in uniquely positioned and
-            committed to meeting the deficiency in the market to supply ethical,
-            reliable, affordable and quality assured of all medicinal products
-            and equipment's vital for healthcare service provision,
+            company. The company has over 5 years of operational experience and
+            an extensive understanding on health and medical needs. AKIDAS in
+            uniquely positioned and committed to meeting the deficiency in the
+            market to supply ethical, reliable, affordable and quality assured
+            of all medicinal products and equipment's vital for healthcare
+            service provision,
           </p>{" "}
         </div>
+        <hr />
         <div>
-          <div>
-            {" "}
-            <span>Management</span>
+          <div className="mgt-area">
+            <div>
+              <div className="mgt-item">
+                {" "}
+                <span className="mgt-title">Management</span>
+              </div>
+
+              <div className="mgt-founder">
+                <span className="mgt-ceo"> CEO & Founder</span>
+              </div>
+              <div className="ceo-bio">
+                {" "}
+                <p>
+                  Ms Ismahan Khalif Adawe, British citizen and Somali native. Ms
+                  Adawe studied Master of Pharmacy at the prestigious University
+                  of Bath in South West of England. Registered and licenced by
+                  the Royal Pharmaceutical Society of Great Britain. Possesses
+                  extensive professional and practical knowledge in the
+                  pharmaceutical industry.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/ismahan.png" className="mgt-img" />
+              <br />
+              <span className="adawe-title"> Ismahan Adawe CEO & Founder</span>
+            </div>
           </div>
+          <hr />
           <div>
-            <div>
-              <span>CEO AND FOUNDER</span>
-            </div>
-            <div>
-              {" "}
-              <p>
-                Ms Ismahan Khalif Adawe, British citizen and Somali native. Ms
-                Adawe studied Master of Pharmacy at the prestigious University
-                of Bath in South West of England. Registered and licenced by the
-                Royal Pharmaceutical Society of Great Britain. Possesses
-                extensive professional and practical knowledge in the
-                pharmaceutical industry.
-              </p>
-            </div>
-            <div>
-              <span>Partners</span>
+            <div className="partner-details">
+              <span>Partners & Clients</span>
             </div>
 
-            <div>
+            <div className="distributor">
               {" "}
               <p>
                 {" "}
@@ -55,63 +67,94 @@ const About = () => {
                 based in Ankara Turkey.{" "}
               </p>{" "}
             </div>
-            <div>
-              <span>Our Clients</span>{" "}
-            </div>
-            <div>
-              <p>
-                Stablished strong relationship with reputable medical service
-                providers based in Mogadishu.
+
+            <div className="our-client-details">
+              <p className="details-cleinet">
+                We have established strong relationship with reputable medical
+                service providers based in Mogadishu, Somalia and Nairobi,
+                Kenya.
               </p>
-              <ul>
-                <li>MEDIPARK DIAGNOSTICS</li>
-                <li>SOMALI SUDANESE HOSPITAL</li>
-                <li>AMEEN MEDICAL EMERGENCY AMBULANCE SERVICES</li>
-              </ul>
+              <div className="client-list">
+                <div className="medi">
+                  <div>
+                    {" "}
+                    <img src="/assets/medi-png.svg" className="client-img" />
+                  </div>
+                  <div>
+                    {" "}
+                    <span> MEDIPARK DIAGNOSTICS</span>
+                  </div>
+                </div>
+                <div className="soma">
+                  <div>
+                    {" "}
+                    <img src="/assets/somali.png" className="client-img" />
+                  </div>
+                  <div>
+                    {" "}
+                    <span> SOMALI SUDANESE HOSPITAL</span>
+                  </div>
+                </div>
+                <div className="ameed">
+                  <div>
+                    {" "}
+                    <img src="/assets/aamin.png" className="client-img" />
+                  </div>
+
+                  <div>
+                    {" "}
+                    <span>AMEEN MEDICAL EMERGENCY AMBULANCE SERVICES</span>
+                  </div>
+                </div>
+              </div>
               <p>
                 {" "}
                 The ambition is grow our client base and extend our service
-                across all the regions in country where access to healthcare is
-                further scarce.
+                across all the regions in countries where access to healthcare
+                is further scarce.
               </p>
             </div>
           </div>
         </div>
-        <div>
+
+        <hr />
+        <div className="mission-vision">
+          {" "}
+          <span> Mission & Vision</span>
+        </div>
+        <div className="misssion-det">
           <div>
-            {" "}
-            <span> MISSION & VISION</span>
+            <p>
+              {" "}
+              To establish reliable supply chain of all healthcare products
+              required in Somalia.
+            </p>
           </div>
-
-          <p>
-            {" "}
-            To establish reliable supply chain of all healthcare products
-            required in Somalia.
-          </p>
-
-          <div>
+          <div className="mission-tit">
             {" "}
             <span> Mission</span>
           </div>
-
-          <p>
-            {" "}
-            To lead the industry by supplying affordable, quality assured that
-            meet global standards.
-          </p>
-
           <div>
+            <p>
+              {" "}
+              To lead the industry by supplying affordable, quality assured that
+              meet global standards.
+            </p>
+          </div>
+
+          <div className="values-tit">
             {" "}
             <span> Values</span>
           </div>
-
-          <p>
-            {" "}
-            To introduce professionalism embedded with integrity, provide
-            highest quality service. Prioritise saving lives through the supply
-            of essential pharmaceutical products that are market competitive
-            with assured and certified quality standard.
-          </p>
+          <>
+            <p>
+              {" "}
+              To introduce professionalism embedded with integrity, provide
+              highest quality service. Prioritise saving lives through the
+              supply of essential pharmaceutical products that are market
+              competitive with assured and certified quality standard.
+            </p>
+          </>
         </div>
       </div>
     </div>

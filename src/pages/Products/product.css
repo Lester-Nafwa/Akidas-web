@@ -1,0 +1,40 @@
+.product-sect {
+  max-height: 50em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  margin-left: 6em;
+  border-radius: 3em;
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-right: 3em;
+  background-color: whitesmoke;
+  border-radius: 1em;
+  padding-bottom: 3em;
+}
+.item-compo {
+  margin-left: 2em;
+}
+.pro-title {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-family: lato;
+}
+.bimed-sect {
+  margin-bottom: 2em;
+}
+.other-products {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+.other-pro-title {
+  font-size: 1em;
+  height: 3em;
+  width: 20%;
+  background-image: linear-gradient(white, rgb(144, 144, 138));
+  padding: 3em;
+  color: whitesmoke;
+  border-radius: 0.5em;
+  font-size: 1em;
+}

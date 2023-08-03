@@ -1,0 +1,105 @@
+.home-sect {
+  width: 78%;
+  border-radius: 1em;
+  margin-left: 1%;
+  padding: 2em;
+  margin-top: 2em;
+}
+.scroll-img {
+  margin-left: 20%;
+  height: 10em;
+  width: 80%;
+}
+.currosel-img {
+  height: 20em;
+  width: 18em;
+}
+.gallery {
+  display: flex;
+  gap: 4em;
+}
+
+.carousel-img {
+  height: 20em;
+  width: 18em;
+  object-fit: cover;
+}
+.home-elemets {
+  margin-left: 8em;
+  width: 90%;
+}
+
+.scroll-img {
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Hide overflowing carousel container */
+}
+
+/* Optionally, you can add styles to hide the scrollbar if you prefer */
+.scroll-img::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and newer Edge */
+}
+
+/* For Firefox */
+.scroll-img {
+  scrollbar-width: none;
+}
+/* Add styles for the footer */
+.footer {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  margin-left: 8em;
+  width: 100%;
+}
+.socia-handle {
+  display: flex;
+  margin-left: 35%;
+  gap: 4em;
+  margin-top: 3em;
+}
+.locate-ico {
+  display: flex;
+  text-align: center;
+  margin-left: 41%;
+}
+.contact-list {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.about-home {
+  height: 3em;
+  width: 40%;
+  color: whitesmoke;
+  background-color: rgb(205, 195, 211);
+  align-items: center;
+  padding: 4em;
+  border-radius: 1em;
+  margin: 1em;
+  text-decoration: none;
+}
+.about-home-text {
+  font-size: 3em;
+  margin-left: 0.5em;
+  font-family: lato;
+}
+.about-home-text:hover {
+  color: rgb(155, 155, 215);
+}
+.about-product {
+  height: 3em;
+  width: 40%;
+  color: whitesmoke;
+  background-color: rgb(195, 211, 206);
+  align-items: center;
+  padding: 4em;
+  border-radius: 1em;
+  margin: 1em;
+  text-decoration: none;
+}
+.item-home {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
