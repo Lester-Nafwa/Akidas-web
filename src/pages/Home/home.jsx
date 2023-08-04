@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -48,12 +49,12 @@ const Home = () => {
       <div className="home-elemets">
        
         <div className="item-home">
-          <a href="/about" className="about-home">
+          <Link to="/about" className="about-home">
             <span className="about-home-text">About </span>
-          </a>
-          <a href="/product" className="about-product">
+          </Link>
+          <Link to="/product" className="about-product">
             <span className="about-home-text">Our Products</span>
-          </a>
+          </Link>
         </div>
       </div>
       <footer className="footer">
