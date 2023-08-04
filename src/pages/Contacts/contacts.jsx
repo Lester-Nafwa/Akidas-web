@@ -91,13 +91,13 @@ const Contact = () => {
         <div className="social-handle">
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL + "/assets/facebook.png"} className="icon-img" />
+              <img src={process.env.PUBLIC_URL + "/assets/facebook.png"} className="icon-img" alt=""/>
             </div>
             <span>Facebook</span>
           </div>
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL + "/assets/twittericon.png"} className="icon-img" />
+              <img src={process.env.PUBLIC_URL + "/assets/twittericon.png"} className="icon-img" alt=""/>
             </div>
             <div>
               {" "}
@@ -106,7 +106,7 @@ const Contact = () => {
           </div>
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL + "/assets/youtubeicon.png" }className="icon-img" />
+              <img src={process.env.PUBLIC_URL + "/assets/youtubeicon.png" }className="icon-img" alt="" />
             </div>
             <div>
               {" "}

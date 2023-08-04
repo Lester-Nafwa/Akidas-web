@@ -47,7 +47,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <img src="./assets/ismahan.png" className="mgt-img" />
+              <img src="./assets/ismahan.png" className="mgt-img" alt=""/>
               <br />
               <span className="adawe-title"> Ismahan Adawe CEO & Founder</span>
             </div>
@@ -78,7 +78,7 @@ const About = () => {
                 <div className="medi">
                   <div>
                     {" "}
-                    <img src={process.env.PUBLIC_URL + "/assets/medi-png.svg"} className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/medi-png.svg"} className="client-img"  alt=""/>
                   </div>
                   <div>
                     {" "}
@@ -88,7 +88,7 @@ const About = () => {
                 <div className="soma">
                   <div>
                     {" "}
-                    <img src={process.env.PUBLIC_URL + "/assets/somali.png" }className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/somali.png" }className="client-img"alt="" />
                   </div>
                   <div>
                     {" "}
@@ -98,7 +98,7 @@ const About = () => {
                 <div className="ameed">
                   <div>
                     {" "}
-                    <img src={process.env.PUBLIC_URL + "/assets/aamin.png" }className="client-img" />
+                    <img src={process.env.PUBLIC_URL + "/assets/aamin.png" }className="client-img" alt=""/>
                   </div>
 
                   <div>

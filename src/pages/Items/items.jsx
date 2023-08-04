@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+
 import "./items.css";
 
 const Items = () => {
-  const { segmentId } = useParams();
   const [selectedSegment, setSelectedSegment] = useState(null);
 
   // Function to handle segment selection
@@ -82,7 +81,11 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src={process.env.PUBLIC_URL + "/assets/mc150.png"} className="img-itesss" />
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/mc150.png"}
+                    className="img-itesss"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -112,7 +115,11 @@ const Items = () => {
                     </p>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/assets/mc120.png" }className="img-itesss" />
+                    <img
+                      src={process.env.PUBLIC_URL + "/assets/mc120.png"}
+                      className="img-itesss"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -140,7 +147,11 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src={process.env.PUBLIC_URL + "/assets/mc120-A.png" }className="img-itesss" />
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/mc120-A.png"}
+                    className="img-itesss"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -166,7 +177,11 @@ const Items = () => {
                   </p>
                 </div>
                 <div>
-                  <img src={process.env.PUBLIC_URL + "/assets/universsal.png" }className="img-itesss" />
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/universsal.png"}
+                    className="img-itesss"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

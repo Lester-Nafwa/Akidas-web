@@ -60,13 +60,13 @@ const Home = () => {
         <div className="socia-handle">
           <div className="icons-social">
             <div>
-              <img src="Akidas-web/assets/facebook.png" className="icon-img" />
+              <img src="Akidas-web/assets/facebook.png" className="icon-img" alt=""/>
             </div>
             <span>Facebook</span>
           </div>
           <div className="icons-social">
             <div>
-              <img src="Akidas-web/assets/twittericon.png" className="icon-img" />
+              <img src="Akidas-web/assets/twittericon.png" className="icon-img"  alt=""/>
             </div>
             <div>
               {" "}
@@ -75,7 +75,7 @@ const Home = () => {
           </div>
           <div className="icons-social">
             <div>
-              <img src="Akidas-web/assets/youtubeicon.png" className="icon-img" />
+              <img src="Akidas-web/assets/youtubeicon.png" className="icon-img"  alt=""/>
             </div>
             <div>
               {" "}

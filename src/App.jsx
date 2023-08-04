@@ -12,7 +12,7 @@ function App() {
     
       <div>
         <div className="icon-prof">
-          <img src={process.env.PUBLIC_URL + "/assets/profo.png"} className="img-prof" />
+          <img src={process.env.PUBLIC_URL + "/assets/profo.png"} className="img-prof" alt="" />
           <hr />
           <div className="title-sub">
             <span>Pharmaceutical & Medical Supplies</span>
