@@ -46,3 +46,17 @@
  
 }
  }
+ @media(max-width:900px){
+  .items-items {
+    height: 1em;
+    width: 9%;
+    background: linear-gradient(white, orange);
+    align-items: center;
+    padding: 3em;
+    border-radius: 1em;
+  
+}
+.items-text {
+  font-size: 0.7em;
+}
+ }
