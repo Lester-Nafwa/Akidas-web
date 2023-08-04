@@ -121,7 +121,7 @@
   width: 18em;
   height: 7em;
 }
-@media  (max-width: 1100px) {
+@media (max-width: 1100px) {
   .our-client-details {
     margin-left: 0.5em;
     line-height: 1.8em;
@@ -140,26 +140,59 @@
   }
   .about-item {
     width: 73%;
-    
   }
 }
-@media (max-width:900px){
-.client-img {
+@media (max-width: 900px) {
+  .client-img {
     width: 15em;
     height: 5em;
+  }
+  .medi {
+    font-size: 0.8em;
+  }
+  .soma {
+    font-size: 0.8em;
+    text-align: end;
+  }
+  .ameed {
+    font-size: 0.8em;
+    text-align: end;
+  }
 }
-.medi {
- font-size: 0.8em;
+@media (max-width: 400px) {
+  .about-item {
+    margin-left: 2em;
+  }
+  .mgt-area {
+    flex-direction: column;
+  }
+  .adawe-title {
+    margin-left: 1em;
+  }
+  .mgt-img {
+    margin-left: 1em;
+  }
+  .partner-details {
+    margin-top: 2em;
+  }
+  .client-list {
+    text-align: start;
+    flex-direction: column;
+    align-self: start;
+  }
+  .client-img {
+    width: 20em;
+    height: 8em;
+    border-radius: 0.2em;
+  }
+  .tex-client {
+    text-align: start;
+  }
+  .ameed {
+    /* font-size: 0.8em; */
+    text-align: start;
+  }
+  .soma {
+    text-align: start;
+  }
 }
-.soma {
-  font-size: 0.8em;
-  text-align:end;
-}
-.ameed{
-  font-size: 0.8em;
-  text-align:end;
-}
-}
- 
- 
-

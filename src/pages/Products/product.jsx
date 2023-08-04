@@ -12,14 +12,16 @@ const Products = () => {
               {" "}
               <span>BIMED Products</span>
             </div>
-
-            <Items />
+            <div className="itesm">
+              <Items />
+            </div>
           </div>
           <hr />
-          <div><span>Other Medical Supplies</span></div>
+          <div className="others-pro">
+            <span>Other Medical Supplies</span>
+          </div>
           <div className="other-products">
-           
-          <div className="other-pro-title">
+            <div className="other-pro-title">
               {" "}
               <span>Medical Supplies</span>
             </div>

@@ -21,7 +21,7 @@ const Items = () => {
         >
           <span className="items-text">BİMED MC-150</span>
           <br />
-          <span className="items-text">Dermatology</span>
+          <span className="items-text-1">Dermatology</span>
         </div>
         <div
           className={`items-items ${
@@ -31,7 +31,7 @@ const Items = () => {
         >
         <span className="items-text">BİMED MC-120</span>
           <br />
-          <span className="items-text">Gynecology</span>
+          <span className="items-tex-1t">Gynecology</span>
         </div>
         <div
           className={`items-items ${
@@ -41,7 +41,7 @@ const Items = () => {
         >
         <span className="items-text">BİMED MC-120-A</span>
           <br />
-          <span className="items-text">Gynecology</span>
+          <span className="items-text-1">Gynecology</span>
         </div>
         <div
           className={`items-items ${
@@ -51,7 +51,7 @@ const Items = () => {
         >
          <span className="items-text">UNIVERSAL</span>
           <br />
-          <span className="items-text">Ophthalmology</span>
+          <span className="items-text-1">Ophthalmology</span>
         </div>
       </div>
       {selectedSegment && (

@@ -49,7 +49,7 @@ const Home = () => {
        
         <div className="item-home">
           <a href="/about" className="about-home">
-            <span className="about-home-text">About Us</span>
+            <span className="about-home-text">About </span>
           </a>
           <a href="/product" className="about-product">
             <span className="about-home-text">Our Products</span>

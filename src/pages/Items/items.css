@@ -60,3 +60,28 @@
   font-size: 0.7em;
 }
  }
+ @media(max-width:400px){
+  
+  .items-items {
+    height: 0em;
+    width:0em;
+    background: none;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 5em;
+  font-size: 0.9em;
+}
+.items-text{
+  display: none;
+}
+.general-items{
+  flex-direction: column;
+}
+.img-itesss {
+  height: 15em;
+  width: 15em;
+}
+.item-details{
+  margin-bottom: 2em;
+}
+ }

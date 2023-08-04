@@ -82,7 +82,7 @@ const About = () => {
                   </div>
                   <div>
                     {" "}
-                    <span> MEDIPARK DIAGNOSTICS</span>
+                    <span className="tex-client"> MEDIPARK DIAGNOSTICS</span>
                   </div>
                 </div>
                 <div className="soma">
@@ -92,7 +92,7 @@ const About = () => {
                   </div>
                   <div>
                     {" "}
-                    <span> SOMALI SUDANESE HOSPITAL</span>
+                    <span className="tex-client"> SOMALI SUDANESE HOSPITAL</span>
                   </div>
                 </div>
                 <div className="ameed">
@@ -103,7 +103,7 @@ const About = () => {
 
                   <div>
                     {" "}
-                    <span>AMEEN MEDICAL EMERGENCY AMBULANCE SERVICES</span>
+                    <span className="tex-client">AMEEN MEDICAL EMERGENCY AMBULANCE SERVICES</span>
                   </div>
                 </div>
               </div>
