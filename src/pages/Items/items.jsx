@@ -19,9 +19,9 @@ const Items = () => {
           }`}
           onClick={() => handleSegmentClick("mc150")}
         >
-          <span>BİMED MC-150</span>
+          <span className="items-text">BİMED MC-150</span>
           <br />
-          <span>Dermatology</span>
+          <span className="items-text">Dermatology</span>
         </div>
         <div
           className={`items-items ${
@@ -29,9 +29,9 @@ const Items = () => {
           }`}
           onClick={() => handleSegmentClick("mc120")}
         >
-          <span>BİMED MC-120</span>
+        <span className="items-text">BİMED MC-120</span>
           <br />
-          <span>Gynecology</span>
+          <span className="items-text">Gynecology</span>
         </div>
         <div
           className={`items-items ${
@@ -39,9 +39,9 @@ const Items = () => {
           }`}
           onClick={() => handleSegmentClick("mc120-A")}
         >
-          <span>BİMED MC-120-A</span>
+        <span className="items-text">BİMED MC-120-A</span>
           <br />
-          <span>Gynecology</span>
+          <span className="items-text">Gynecology</span>
         </div>
         <div
           className={`items-items ${
@@ -49,9 +49,9 @@ const Items = () => {
           }`}
           onClick={() => handleSegmentClick("Universal")}
         >
-          <span>UNIVERSAL</span>
+         <span className="items-text">UNIVERSAL</span>
           <br />
-          <span>Ophthalmology</span>
+          <span className="items-text">Ophthalmology</span>
         </div>
       </div>
       {selectedSegment && (
