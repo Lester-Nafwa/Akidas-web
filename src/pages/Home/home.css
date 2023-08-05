@@ -29,6 +29,7 @@
 .home-elemets {
   margin-left: 8em;
   width: 90%;
+  margin-top: 3em;
 }
 
 .scroll-img {
@@ -50,7 +51,7 @@
   background-color: whitesmoke;
   padding: 20px;
   text-align: center;
-  margin-left: 8em;
+  margin-left: 5em;
   width: 100%;
 }
 .socia-handle {
