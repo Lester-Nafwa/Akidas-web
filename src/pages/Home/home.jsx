@@ -44,8 +44,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+ 
       <div className="home-elemets">
+      <hr/>
         <div className="item-home">
           <Link to="/about" className="about-home">
             <span className="about-home-text">About </span>
