@@ -60,6 +60,18 @@
   font-size: 0.7em;
 }
  }
+ @media(width:768px){
+  .items-items {
+    width: 14%;
+    padding-left: 1em;
+  
+  }
+  .items-seg {
+    display: flex;
+     gap: 1em;
+     margin-left: -2em;
+}
+ }
  @media(max-width:400px){
   
   .items-items {

@@ -10,7 +10,7 @@ const Home = () => {
           <div>
             {" "}
             <img
-              src={process.env.PUBLIC_URL +"/assets/machinery.png"}
+              src={process.env.PUBLIC_URL + "/assets/machinery.png"}
               className="currosel-img"
               alt="Machinery"
             />
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL +"/assets/equioments.png"}
+              src={process.env.PUBLIC_URL + "/assets/equioments.png"}
               className="currosel-img"
               alt="Equipments"
             />
@@ -33,7 +33,7 @@ const Home = () => {
           <div>
             {" "}
             <img
-              src={process.env.PUBLIC_URL +"/assets/medicene.png"}
+              src={process.env.PUBLIC_URL + "/assets/medicene.png"}
               className="currosel-img"
               alt="Med"
             />
@@ -44,10 +44,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-       
-   
+
       <div className="home-elemets">
-       
         <div className="item-home">
           <Link to="/about" className="about-home">
             <span className="about-home-text">About </span>
@@ -62,13 +60,21 @@ const Home = () => {
         <div className="socia-handle">
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL +"/assets/facebook.png"} className="icon-img" alt=""/>
+              <img
+                src={process.env.PUBLIC_URL + "/assets/facebook.png"}
+                className="icon-img"
+                alt=""
+              />
             </div>
             <span>Facebook</span>
           </div>
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL +"/assets/twittericon.png" }className="icon-img"  alt=""/>
+              <img
+                src={process.env.PUBLIC_URL + "/assets/twittericon.png"}
+                className="icon-img"
+                alt=""
+              />
             </div>
             <div>
               {" "}
@@ -77,7 +83,11 @@ const Home = () => {
           </div>
           <div className="icons-social">
             <div>
-              <img src={process.env.PUBLIC_URL +"/assets/youtubeicon.png"} className="icon-img"  alt=""/>
+              <img
+                src={process.env.PUBLIC_URL + "/assets/youtubeicon.png"}
+                className="icon-img"
+                alt=""
+              />
             </div>
             <div>
               {" "}
