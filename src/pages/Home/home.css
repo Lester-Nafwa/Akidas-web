@@ -148,78 +148,83 @@
 @media (max-width: 900px) {
   .currosel-img {
     height: 9em;
-    width:10em;
+    width: 10em;
   }
-  .gallery{
-    gap:4.5em;
+  .gallery {
+    gap: 4.5em;
     margin-left: 2em;
   }
   .home-elemets {
-    margin-left:5em;
+    margin-left: 5em;
     width: 100%;
     align-items: center;
+  }
+  .about-product {
+    font-size: 0.8em;
+    width: 30%;
+  }
+  .about-home {
+    font-size: 0.8em;
+    width: 30%;
+  }
 }
-.about-product {
- font-size: 0.8em;
-  width:30%;
-}
-.about-home {
-  font-size: 0.8em;
-  width:30%;
-}
-}
-@media(max-width:400px){
+@media (max-width: 400px) {
   .scroll-img {
     margin-left: 1%;
     height: 10em;
     width: 100%;
     display: flex;
-  flex-direction:column;
-  gap: 2em;
-}
-.gallery {
-  margin-left: 2em;
-  display: flex;
-  flex-direction:column;
-  gap: 2em;
-  width: 100%;
- 
-}
-.currosel-img {
-  height: 15em;
-  width: 24em;
-  gap: 4em;
-}
-.home-elemets{
-  margin-top: 45em;
-  margin-left: 0.1em;
- }
- .about-home{
-  margin-left: 0.3em;
- width: 100%;
- }
- .about-product{
-  margin-left: 0em;
- width: 30%;
- }
- .item-home {
-  margin-left: 0.8em;
-  gap:2em;
- }
- 
+    flex-direction: column;
+    gap: 2em;
+  }
+  .gallery {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+  }
+  .currosel-img {
+    height: 15em;
+    width: 24em;
+    gap: 4em;
+  }
+  .home-elemets {
+    margin-top: 46em;
+    margin-left: 0.1em;
+  }
+  .about-home {
+    margin-left: 0.3em;
+    width: 100%;
+  }
+  .about-product {
+    margin-left: 0em;
+    width: 30%;
+  }
+  .item-home {
+    margin-left: 0.8em;
+    gap: 2em;
+  }
+
   .footer {
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 21px;
     text-align: center;
     margin-left: 1em;
-    width: 120%;
-}
-.socia-handle {
-  display: flex;
-  margin-left: 18%;
-  gap: 1em;
-  margin-top: 3em;
-}
- 
- 
+    width: 125%;
+  }
+  .socia-handle {
+    display: flex;
+    margin-left: 18%;
+    gap: 1em;
+    margin-top: 3em;
+  }
+  .locate-ico {
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .socia-handle {
+    margin-left: 1%;
+  }
 }
