@@ -9,16 +9,22 @@ import Contact from "./pages/Contacts/contacts";
 
 function App() {
   return (
-    
-      <div>
-        <div className="icon-prof">
-          <img src={process.env.PUBLIC_URL + "/assets/profo.png"} className="img-prof" alt="" />
-          <hr />
-          <div className="title-sub">
-            <span>Pharmaceutical & Medical Supplies</span>
-          </div>
+    <div>
+      <div className="icon-prof">
+        <div className="bg-head"> 
+        <img
+          src={process.env.PUBLIC_URL + "/assets/profo.png"}
+          className="img-prof"
+          alt=""
+        />
+        <hr />
+        <div className="title-sub">
+          <span>Pharmaceutical & Medical Supplies</span>
+        </div>
         </div>
         <Nav />
+      </div>
+      <div className="rest-code">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -26,7 +32,7 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
         </Routes>
       </div>
-   
+    </div>
   );
 }
 
