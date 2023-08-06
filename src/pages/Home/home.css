@@ -5,6 +5,9 @@
   padding: 2em;
   margin-top: 2em;
 }
+.a{
+  text-decoration: none;
+}
 .scroll-img {
   margin-left: 10%;
   height: 10em;
