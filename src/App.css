@@ -7,19 +7,18 @@
   margin-left: 35%;
 }
 .icon-prof{
-  position:fixed;
-  position: fixed;
+  position:sticky;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 9999;
+  z-index: 5;
 }
 .bg-head{
   background:white;
 }
 .rest-code{
-  margin-top: 14em;
+  margin-top: 1em;
 }
 .mount-comp{
   overflow-y: hidden;
