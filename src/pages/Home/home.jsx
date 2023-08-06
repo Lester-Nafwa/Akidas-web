@@ -44,9 +44,9 @@ const Home = () => {
           </div>
         </div>
       </div>
- 
+
       <div className="home-elemets">
-      <hr/>
+        <hr />
         <div className="item-home">
           <Link to="/about" className="about-home">
             <span className="about-home-text">About </span>
@@ -59,16 +59,18 @@ const Home = () => {
       <footer className="footer">
         <p>Contact us at: </p>
         <div className="socia-handle">
-          <div className="icons-social">
-            <div>
-              <img
-                src={process.env.PUBLIC_URL + "/assets/facebook.png"}
-                className="icon-img"
-                alt=""
-              />
+          <a href="https://www.facebook.com/profile.php?id=100087974205941">
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/facebook.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <span>Facebook</span>
             </div>
-            <span>Facebook</span>
-          </div>
+          </a>
           <div className="icons-social">
             <div>
               <img
@@ -82,19 +84,36 @@ const Home = () => {
               <span>Twitter</span>
             </div>
           </div>
-          <div className="icons-social">
-            <div>
-              <img
-                src={process.env.PUBLIC_URL + "/assets/youtubeicon.png"}
-                className="icon-img"
-                alt=""
-              />
+          <a href="https://www.instagram.com/ikadaskenya/">
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/instagram.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <div>
+                {" "}
+                <span>Instagram</span>
+              </div>
             </div>
-            <div>
-              {" "}
-              <span>Youtube</span>
+          </a>
+          <a href="https://www.linkedin.com/company/ikadas/">
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/linked.pnd.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <div>
+                {" "}
+                <span>LinkedIn</span>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="contact-list">
           <div>
