@@ -196,6 +196,32 @@ a {
     width: 30%;
   }
 }
+@media (max-width: 550px) {
+  .footer {
+    width: 162%;
+    margin-left: 1.9em;
+  }
+  .socia-handle {
+    margin-left: 10%;
+  }
+  .contact-list {
+    margin-top: 1em;
+    margin-left: 0.1em;
+  }
+  .locate-ico {
+    margin-left: 33%;
+  }
+  .currosel-img {
+    width: 11em;
+  }
+  .item-home {
+    width: 150%;
+  }
+  hr {
+    margin-left: 15em;
+    width: 15em;
+  }
+}
 @media (max-width: 414px) {
   .scroll-img {
     margin-left: 1%;
@@ -257,9 +283,9 @@ a {
     margin-left: 15%;
   }
 }
-@media (max-width:350px){
+@media (max-width: 350px) {
   .footer {
-    width:23em;
+    width: 23em;
     margin-left: 0.2em;
   }
 }

@@ -71,6 +71,11 @@
     font-size: 0.8em;
   }
 }
+@media (max-width:550px){
+  .dashboard{
+   width:40em;
+  }
+}
 @media (max-width: 414px) {
   .dashboard {
     display: flex;
