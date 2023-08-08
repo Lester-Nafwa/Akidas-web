@@ -222,6 +222,12 @@ a {
     width: 15em;
   }
 }
+@media (width: 768px) {
+  .socia-handle {
+    margin-left: 10%;
+    gap: 3em;
+  }
+}
 @media (max-width: 414px) {
   .scroll-img {
     margin-left: 1%;

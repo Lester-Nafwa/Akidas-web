@@ -140,7 +140,7 @@ textarea {
   }
   .contact-submit {
     margin-left: 1.5em;
-}
+  }
 }
 @media (max-width: 400px) {
   .contact-section {
@@ -164,5 +164,13 @@ textarea {
   }
   .contact-submit {
     width: 90%;
+  }
+}
+@media (width: 768px) {
+  .contact-title {
+    font-size: 1.5em;
+  }
+  textarea {
+    width: 105%;
   }
 }
