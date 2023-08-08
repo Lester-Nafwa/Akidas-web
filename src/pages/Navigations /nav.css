@@ -71,9 +71,18 @@
     font-size: 0.8em;
   }
 }
-@media (max-width:550px){
-  .dashboard{
-   width:40em;
+@media (max-width: 550px) {
+  .dashboard {
+    width: 40em;
+  }
+  .items-seg {
+    display: flex;
+    gap:0.7em;
+    margin-left:-1em;
+     
+}
+  .items-text {
+    padding-left: 0.5em;
   }
 }
 @media (max-width: 414px) {
@@ -102,8 +111,8 @@
     font-size: 0.5em;
   }
 }
-@media (max-width:350px){
-  .dashboard{
+@media (max-width: 350px) {
+  .dashboard {
     width: 22em;
   }
 }

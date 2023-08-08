@@ -31,9 +31,14 @@
 @media(max-width:550px){
   .bg-head {
    margin-left: 7em;
+   border: whitesmoke;
 }
 .title-sub {
   width:15em
+}
+.icon-prof{
+  background-color: whitesmoke;
+  width: 150%;
 }
 }
 @media(max-width:414px){

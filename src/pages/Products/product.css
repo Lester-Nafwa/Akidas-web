@@ -38,41 +38,48 @@
   border-radius: 0.5em;
   font-size: 1em;
 }
-@media(max-width:900px){
+@media (max-width: 900px) {
   .bimed-sect {
     margin-bottom: 2em;
-   
   }
-  .item-compo{
-    gap:10em;
+  .item-compo {
+    gap: 10em;
   }
 }
-@media(max-width:400px){
+@media (max-width: 550px) {
+  .product-sect {
+    width: 120%;
+  }
+  .other-products {
+    gap: 1em;
+    width: 37em;
+    margin-left: 0.5em;
+  }
+}
+@media (max-width: 400px) {
+  .product-sect {
+    margin-left: 1.8em;
+    width: 110%;
+    padding-left: 0.1em;
+    height: 100%;
+  }
+  .bimed-sect {
+    margin-left: 0.1em;
+  }
+  .itesm {
+    margin-left: 0;
+  }
+  .others-pro {
+    margin-top: 1em;
+  }
+  .other-products {
+    margin-left: 0;
+    flex-direction: column;
+  }
 
-.product-sect{
-  margin-left: 1.8em;
-  width: 110%;
-  padding-left: 0.1em;
-  height: 100%;
- 
-}
-.bimed-sect{
-  margin-left: 0.1em;
-}
-.itesm{
-  margin-left: 0;
-}
-.others-pro{
-  margin-top: 1em;
-}
-.other-products{
-  margin-left: 0;
-  flex-direction: column;
-}
-
-.other-pro-title {
-  width: 20em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
+  .other-pro-title {
+    width: 20em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
 }

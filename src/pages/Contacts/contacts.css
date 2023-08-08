@@ -128,6 +128,20 @@ textarea {
     padding-right: 3em;
   }
 }
+@media (max-width: 550px) {
+  .contact-title {
+    font-size: 1.5em;
+  }
+  .contact-form {
+    width: 38em;
+  }
+  textarea {
+    width: 108%;
+  }
+  .contact-submit {
+    margin-left: 1.5em;
+}
+}
 @media (max-width: 400px) {
   .contact-section {
     flex-direction: column;
@@ -148,7 +162,7 @@ textarea {
   textarea {
     width: 85%;
   }
-  .contact-submit{
+  .contact-submit {
     width: 90%;
   }
 }
