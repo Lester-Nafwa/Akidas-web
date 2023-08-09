@@ -30,7 +30,7 @@
 }
 @media (max-width: 550px) {
   .bg-head {
-    margin-left: 7em;
+    margin-left: 1em;
     border: whitesmoke;
   }
   .title-sub {
@@ -40,6 +40,11 @@
     background-color: whitesmoke;
     width: 150%;
   }
+  .img-prof {
+    height: 4em;
+    border-radius: 1em;
+    margin-left: 20%;
+}
 }
 @media (max-width: 414px) {
   .img-prof {
