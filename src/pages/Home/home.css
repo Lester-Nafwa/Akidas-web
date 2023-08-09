@@ -275,7 +275,7 @@ a {
   }
   .about-product {
     margin-left: 0em;
-    width: 30%;
+    width: 55%;
   }
   .item-home {
     margin-left: 0.8em;
@@ -333,4 +333,10 @@ a {
     width: 95%;
     margin-left: 0.5em;
   }
+}
+@media(max-width:300px){
+  .dashboard {
+    width: 120%;
+  
+}
 }
