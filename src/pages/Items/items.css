@@ -72,7 +72,7 @@
      margin-left: -2em;
 }
  }
- @media(max-width:400px){
+ @media(max-width:414px){
   
   .items-items {
     height: 0em;
@@ -95,5 +95,10 @@
 }
 .item-details{
   margin-bottom: 2em;
+}
+.items-seg{
+  margin-left:-15%;
+ display: flex;
+ justify-content: flex-start;
 }
  }

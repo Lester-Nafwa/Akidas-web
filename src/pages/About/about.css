@@ -164,9 +164,10 @@
     width: 110%;
 }
 }
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .about-item {
-    margin-left: 2em;
+    margin-left: 2.8em;
+    width: 72%;
   }
   .mgt-area {
     flex-direction: column;

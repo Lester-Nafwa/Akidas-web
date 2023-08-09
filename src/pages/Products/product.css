@@ -56,10 +56,10 @@
     margin-left: 0.5em;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .product-sect {
     margin-left: 1.8em;
-    width: 110%;
+    width: 100%;
     padding-left: 0.1em;
     height: 100%;
   }
@@ -78,7 +78,7 @@
   }
 
   .other-pro-title {
-    width: 20em;
+    width: 17em;
     margin-bottom: 2em;
     margin-top: 2em;
   }

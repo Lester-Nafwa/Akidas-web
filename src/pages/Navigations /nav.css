@@ -77,10 +77,9 @@
   }
   .items-seg {
     display: flex;
-    gap:0.7em;
-    margin-left:-1em;
-     
-}
+    gap: 0.7em;
+    margin-left: -1em;
+  }
   .items-text {
     padding-left: 0.5em;
   }
@@ -90,12 +89,10 @@
     display: flex;
     width: 100%;
     gap: 2em;
-
     background: burlywood;
     height: 4em;
     align-items: center;
     padding-right: 4em;
-
     margin-left: 2em;
     justify-content: safe;
     text-decoration: none;
