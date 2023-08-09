@@ -324,13 +324,13 @@ a {
     display: none;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .footer {
     width: 23em;
     margin-left: 0.2em;
   }
   .dashboard {
-    width: 110%;
+    width: 95%;
     margin-left: 0.5em;
   }
 }
