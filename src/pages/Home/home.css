@@ -313,4 +313,7 @@ a {
     width: 23em;
     margin-left: 0.2em;
   }
+  .dashboard{
+    width: 110%;
+  }
 }
