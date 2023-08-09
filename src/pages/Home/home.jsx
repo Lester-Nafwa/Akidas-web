@@ -71,19 +71,7 @@ const Home = () => {
               <span>Facebook</span>
             </div>
           </a>
-          <div className="icons-social">
-            <div>
-              <img
-                src={process.env.PUBLIC_URL + "/assets/twittericon.png"}
-                className="icon-img"
-                alt=""
-              />
-            </div>
-            <div>
-              {" "}
-              <span>Twitter</span>
-            </div>
-          </div>
+
           <a href="https://www.instagram.com/ikadaskenya/">
             <div className="icons-social">
               <div>
