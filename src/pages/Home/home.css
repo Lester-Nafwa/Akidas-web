@@ -195,13 +195,13 @@ a {
     font-size: 0.8em;
     width: 30%;
   }
-  .socia-handle{
+  .socia-handle {
     margin-left: 3em;
   }
   .contact-list {
     margin-top: 1em;
     margin-left: 0.2em;
-}
+  }
 }
 @media (max-width: 550px) {
   .footer {
@@ -228,6 +228,10 @@ a {
     margin-left: 15em;
     width: 15em;
   }
+  .dashboard {
+    margin-left: 0.1em;
+    width:90%;
+  }
 }
 @media (width: 768px) {
   .socia-handle {
@@ -235,8 +239,8 @@ a {
     gap: 3em;
   }
 }
-@media(max-width:850px){
-  .socia-handle{
+@media (max-width: 850px) {
+  .socia-handle {
     margin-left: 2em;
   }
 }
