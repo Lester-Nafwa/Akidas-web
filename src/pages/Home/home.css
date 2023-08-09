@@ -304,6 +304,9 @@ a {
     text-align: center;
     margin-left: 15%;
   }
+  .dashboard{
+    width: 98%;
+  }
 }
 @media (max-width: 350px) {
   .footer {
