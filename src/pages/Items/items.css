@@ -11,6 +11,7 @@
   align-items: center;
   padding: 2em;
   border-radius: 1em;
+   
 }
 .items-items:hover {
   color: blueviolet;
@@ -32,6 +33,10 @@
  .title-4-product{
     font-size: 1.5em;
  }
+  .items-text{
+ 
+cursor: pointer;
+}
  @media(max-width:1100px) and (min-width:600px){
   .items-text{
     font-size: 0.8em;
