@@ -4,6 +4,7 @@
   margin-left: 1%;
   padding: 2em;
   margin-top: 2em;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -262,7 +263,7 @@ a {
   }
   .currosel-img {
     height: 15em;
-    width: 24em;
+    width: 19em;
     gap: 4em;
   }
   .home-elemets {
@@ -270,42 +271,46 @@ a {
     margin-left: 0.1em;
   }
   .about-home {
-    margin-left: 0.3em;
-    width: 100%;
+    margin-left: 0em;
+    width: 30%;
+    font-size: 0.6em
   }
   .about-product {
     margin-left: 0em;
-    width: 55%;
-  }
+    width: 30%;
+    font-size: 0.6em;
+}
   .item-home {
-    margin-left: 0.8em;
+    margin-left: 0.5em;
     gap: 2em;
   }
 
   .footer {
     background-color: whitesmoke;
+    flex-direction: column;
     padding: 21px;
-    text-align: center;
+    text-align: start;
     margin-left: 1em;
     width: 125%;
   }
   .socia-handle {
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
+    flex-direction: column;
     margin-top: 3em;
-    margin-left: 5%;
+    margin-left: 1em;
     text-decoration: none;
-  }
+}
   a {
     text-decoration: none;
   }
   .locate-ico {
     display: flex;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 0;
   }
   .dashboard {
-    width: 84%;
+    width: 65%;
   }
   .about-home-text {
     padding: 0.5em;
@@ -316,7 +321,7 @@ a {
     gap: 0.5em;
   }
   .footer{
-    width: 108%;
+    width:85%;
     margin-left:1em;
   
   }
@@ -327,11 +332,12 @@ a {
 @media (max-width: 360px) {
   .footer {
     width: 23em;
-    margin-left: 0.2em;
+    margin-left: 0em;
   }
   .dashboard {
-    width: 95%;
-    margin-left: 0.5em;
+    width: 70%;
+    margin-left: 0em;
+    gap: 0.8em;
   }
 }
 @media(max-width:300px){

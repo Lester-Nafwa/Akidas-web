@@ -19,6 +19,7 @@
 }
 .rest-code {
   margin-top: 1em;
+  overflow-x: hidden;
 }
 .mount-comp {
   overflow-y: hidden;
