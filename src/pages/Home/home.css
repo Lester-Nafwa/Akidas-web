@@ -272,6 +272,10 @@ a {
     flex-direction: column;
     gap: 2em;
   }
+  .iconics {
+   
+    margin-left: 5%;
+}
   .gallery {
     margin-left: 2em;
     display: flex;
