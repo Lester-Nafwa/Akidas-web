@@ -45,7 +45,8 @@
     text-decoration: none;
   }
 }
-@media (max-width: 900px) {
+
+@media (max-width: 920px) {
   .dashboard {
     display: flex;
     width: 80%;

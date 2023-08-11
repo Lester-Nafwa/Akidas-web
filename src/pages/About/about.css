@@ -159,6 +159,21 @@
     text-align: end;
   }
 }
+@media(max-width:920px){
+  .about-item {
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 8em;
+    width: 83%;
+    position: relative;
+    color: black;
+    padding: 2em;
+    background-color: whitesmoke;
+    box-shadow: 3em;
+    border-radius: 1em;
+    overscroll-behavior: contain;
+  }
+}
 @media(max-width:550px){
   .about-item {
     width: 110%;

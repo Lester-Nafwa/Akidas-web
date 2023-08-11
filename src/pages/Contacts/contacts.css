@@ -118,10 +118,10 @@ textarea {
     font-size: 1em;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .contact-section {
     gap: 1em;
-    width: 34em;
+   width: 70%;
     margin-left: 6em;
   }
   .contact-form {

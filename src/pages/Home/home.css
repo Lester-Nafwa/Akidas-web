@@ -174,7 +174,7 @@ a {
     margin-top: 7em;
   }
 }
-@media (max-width: 912px) {
+@media (max-width: 920px) {
   .currosel-img {
     height: 9em;
     width: 10em;
@@ -203,6 +203,14 @@ a {
     margin-top: 1em;
     margin-left: 0.2em;
   }
+  .item-home {
+    display: flex;
+    gap: 0.3em;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    width: 35em;
+}
+ 
 }
 @media (max-width: 550px) {
   .footer {
