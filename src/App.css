@@ -81,15 +81,30 @@
     margin-left: 2%;
   }
   .icon-prof{
-    margin-left: 3em;
+    margin-left: 0.5em;
   }
   
 }
 @media (max-width: 350px) {
   .title-sub {
-    width: 200%;
+    width: 100%;
   }
   .img-prof {
     margin-left: 10%;
   }
+}
+@media(max-width:300px){
+  .rest-code{
+    margin-top: 0.2em;
+  }
+  .img-prof {
+    margin-left: 0%;
+}
+.title-sub {
+  margin-left: 20%;
+  font-style: oblique;
+  font-size: 1em;
+  width: 100%;
+  margin-left: 2%;
+}
 }

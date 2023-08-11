@@ -145,9 +145,9 @@ textarea {
 @media (max-width: 414px) {
   .contact-section {
     flex-direction: column;
-    margin-left: 3em;
-    width: 100%;
-    padding: 1em;
+    margin-left: 0em;
+    width: 95%;
+    padding: 0.5em;
   }
   .contact-form {
     width: 95%;
@@ -180,4 +180,28 @@ textarea {
   textarea {
     width: 105%;
   }
+}
+@media(max-width:300px){
+  .contact-section {
+    flex-direction: column;
+    margin-left: 0em;
+    width: 100%;
+    padding: 0.5em;
+}
+.contact-form{
+  width: 85%;
+}
+input {
+  width: 71%;
+}
+.contact-details {
+  margin-top: 1em;
+  margin-left: 0.1em;
+}
+.social-handle{
+  flex-direction: column;
+  margin-left: 5em;
+  gap: 1em;
+}
+
 }

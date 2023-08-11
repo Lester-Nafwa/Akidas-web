@@ -166,8 +166,10 @@
 }
 @media (max-width: 414px) {
   .about-item {
-    margin-left: 2.8em;
+    margin-left: 0em;
     width: 72%;
+    padding-left:2em;
+    
   }
   .mgt-area {
     flex-direction: column;
@@ -201,4 +203,22 @@
   .soma {
     text-align: start;
   }
+}
+@media(max-width:300px){
+  .about-item {
+    margin-left: 0.5em;
+    width: 85%;
+    padding-left: 0.5em;
+}
+.mgt-img {
+  margin-left: 2em;
+  width: 12em;
+}
+.adawe-title {
+  margin-left: 0.1em;
+}
+.mgt-title {
+  text-align: start;
+  margin-left: -4.5em;
+}
 }

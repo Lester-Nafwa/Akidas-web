@@ -113,3 +113,9 @@
     width: 22em;
   }
 }
+
+@media(max-width:300px){
+  .dashboard-item{
+    font-size: 0.8em;
+  }
+}
