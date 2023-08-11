@@ -6,6 +6,16 @@
   margin-top: 2em;
   overflow-x: hidden;
 }
+.banner-contact{
+  height: 12em;
+  background-color: white;
+  margin-top: 3em;
+  border-radius: 15em;
+}
+.details-contacts{
+  display: flex;
+  gap:-30em
+}
 .icons-social{
   display: flex;
   gap: 0.5em;
@@ -70,26 +80,30 @@ a {
 }
 /* Add styles for the footer */
 .footer {
-  background-color: whitesmoke;
+  background-color: rgba(11, 197, 239, 0.59);
   padding: 20px;
   text-align: center;
   margin-left: 8em;
   width: 100%;
+  height: 120%;
 }
 .socia-handle {
   display: flex;
-  margin-left: 35%;
+  margin-left: 10%;
   gap: 4em;
   margin-top: 3em;
+}
+.img-banner{
+  margin-left: 10%;
 }
 .locate-ico {
   display: flex;
   text-align: center;
   margin-left: 41%;
-}
-.contact-list {
+}.contact-list {
   margin-top: 1em;
-  margin-left: 1em;
+  margin-left: 0em;
+  width: 24em;
 }
 .about-home {
   height: 3em;
@@ -228,7 +242,15 @@ a {
     margin-bottom: 1em;
     width: 35em;
 }
- 
+.banner-contact{
+  height: 12em;
+  background-color: white;
+  margin-top: 3em;
+  border-radius: 15em;
+}
+.img-banner{
+margin-left: -3%;
+}
 }
 @media (max-width: 550px) {
   .footer {
@@ -304,6 +326,16 @@ a {
     margin-left: 0em;
     width: 30%;
     font-size: 0.6em
+  }
+  .banner-contact{
+    height: 8em;
+    background-color: white;
+    margin-top: 3em;
+    border-radius: 15em;
+    width: 5em;
+  }
+  .img-banner{
+    margin-left: 1%;
   }
   .about-product {
     margin-left: 0em;
@@ -381,6 +413,13 @@ a {
     width: 80%;
     margin-left: 0em;
     gap: 0.8em;
+  }
+  .banner-contact{
+    height: 9em;
+    background-color: white;
+    margin-top: 3em;
+    border-radius: 15em;
+    width: 4em;
   }
 }
 @media(max-width:300px){
