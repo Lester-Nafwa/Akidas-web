@@ -1,14 +1,53 @@
-import React from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Nav from "./pages/Navigations /nav";
-import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Products from "./pages/Products/product";
 import Contact from "./pages/Contacts/contacts";
 import Error from "./pages/error/error";
 
+const LazyHome = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(import("./pages/Home/home"));
+    }, 2000);
+  });
+});
+
+const LazyAbout = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(import("./pages/About/about"));
+    }, 2000);
+  });
+});
+
+const LazyProducts = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(import("./pages/Products/product"));
+    }, 2000);
+  });
+});
+
+const LazyContact = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(import("./pages/Contacts/contacts"));
+    }, 2000);
+  });
+});
+
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div>
       <div className="icon-prof">
@@ -27,10 +66,38 @@ function App() {
       </div>
       <div className="rest-code">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/product" element={<Products />} />
-          <Route path="/contacts" element={<Contact />} />
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={isLoading ? <>Loading...</> : null}>
+                <LazyHome />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <Suspense fallback={isLoading ? <>Loading...</> : null}>
+                <LazyAbout />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/product"
+            element={
+              <Suspense fallback={isLoading ? <>Loading...</> : null}>
+                <LazyProducts />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/contacts"
+            element={
+              <Suspense fallback={isLoading ? <>Loading...</> : null}>
+                <LazyContact />
+              </Suspense>
+            }
+          />
           <Route path="*" element={<Error />} />
         </Routes>
       </div>
