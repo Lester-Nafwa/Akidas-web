@@ -104,20 +104,20 @@ const Home = () => {
           </a>
         </div>
         <div className="contact-list">
-          <div>
-            <span>Telephone Number :</span>
-            <span>+254 707064823</span>
+          <div className="iconics">
+         <div>  <img src='/assets/telephon-icon.svg' alt="" className="contact-icon" /> </div> 
+          <div>  <span>+254 707064823</span></div> 
           </div>
           <br />
-          <div>
-            <span>Email :</span>
-            <span>ismahan.adawe@gmail.com</span>
+          <div className="iconics">
+         <div> <img src='/assets/email-icon.svg' alt="" className="contact-icon"/> </div> 
+          <div>  <span>ismahan.adawe@gmail.com</span></div> 
           </div>
           <br />
           <div className="locate-ico">
             <div>
               {" "}
-              <span>Location :</span>
+               <img src='/assets/location.svg' alt="" className="contact-icon"/> 
             </div>
             <div>
               <div>
