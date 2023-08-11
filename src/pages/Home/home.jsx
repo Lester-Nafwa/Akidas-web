@@ -58,6 +58,7 @@ const Home = () => {
       </div>
       <footer className="footer">
         <p>Contact us at: </p>
+        <div><img src="/assets/contactus.png" alt=""/></div>
         <div className="socia-handle">
           <a href="https://www.facebook.com/profile.php?id=100087974205941">
             <div className="icons-social">
