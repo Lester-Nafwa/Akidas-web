@@ -171,6 +171,13 @@
     padding-left:2em;
     
   }
+  .mgt-title {
+    font-size: 1.5em;
+    font-family: lato;
+    font-weight: 500;
+    font-style: oblique;
+    margin-left: -6em;
+}
   .mgt-area {
     flex-direction: column;
   }

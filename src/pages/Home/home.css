@@ -263,7 +263,7 @@ a {
   }
   .currosel-img {
     height: 15em;
-    width: 20.5em;
+    width: 22.5em;
     gap: 4em;
   }
   .home-elemets {
@@ -310,7 +310,7 @@ a {
     margin-left: 0;
   }
   .dashboard {
-    width: 65%;
+    width: 75%;
   }
   .about-home-text {
     padding: 0.5em;
@@ -322,7 +322,7 @@ a {
     margin-left: -1em;
   }
   .footer{
-    width:85%;
+    width:110%;
     margin-left:-2em;
   
   }
