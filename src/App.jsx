@@ -49,7 +49,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="pharm-details">
       <div className="icon-prof">
         <div className="bg-head">
           <img
