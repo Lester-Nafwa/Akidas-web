@@ -2,9 +2,9 @@ import React, { Suspense, lazy, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Nav from "./pages/Navigations /nav";
-import About from "./pages/About/about";
-import Products from "./pages/Products/product";
-import Contact from "./pages/Contacts/contacts";
+// import About from "./pages/About/about";
+// import Products from "./pages/Products/product";
+// import Contact from "./pages/Contacts/contacts";
 import Error from "./pages/error/error";
 
 const LazyHome = lazy(() => {
