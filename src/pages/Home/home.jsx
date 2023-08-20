@@ -111,11 +111,7 @@ const Home = () => {
                 <div>  <span>+254 707064823</span></div>
               </div>
               <br />
-              <div className="iconics">
-                <div> <img src='/assets/email-icon.svg' alt="" className="contact-icon" /> </div>
-                <div>  <span>ismahan.adawe@gmail.com</span></div>
-              </div>
-              <br />
+             
               <div className="locate-ico">
                 <div>
                   {" "}
@@ -136,6 +132,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="copyright"><span>© 2023 - 2023 www.ikadas.com - All Rights Reserved</span></div>
       </footer>
     </div>
   );

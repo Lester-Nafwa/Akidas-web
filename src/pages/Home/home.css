@@ -84,12 +84,16 @@ a {
   text-align: center;
   margin-left: 8em;
   width: 100%;
-  height: 120%;
+  height: 150%;
+
+}
+.copyright{
+  margin-left: -3em;
 }
 .socia-handle {
   display: flex;
   margin-left: 10%;
-  gap: 4em;
+  gap: 9em;
   margin-top: 3em;
 }
 .img-banner{
@@ -100,8 +104,8 @@ a {
   text-align: center;
   margin-left: 41%;
 }.contact-list {
-  margin-top: 1em;
-  margin-left: 0em;
+  margin-top: 1.8em;
+  margin-left:7em;
   width: 24em;
 }
 .about-home {

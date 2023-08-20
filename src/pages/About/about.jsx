@@ -24,35 +24,7 @@ const About = () => {
         </div>
         <hr />
         <div>
-          <div className="mgt-area">
-            <div>
-              <div className="mgt-item">
-                {" "}
-                <span className="mgt-title">Management</span>
-              </div>
-
-              <div className="mgt-founder">
-                <span className="mgt-ceo"> CEO & Founder</span>
-              </div>
-              <div className="ceo-bio">
-                {" "}
-                <p>
-                  Ms Ismahan Khalif Adawe, British citizen and Somali native. Ms
-                  Adawe studied Master of Pharmacy at the prestigious University
-                  of Bath in South West of England. Registered and licenced by
-                  the Royal Pharmaceutical Society of Great Britain. Possesses
-                  extensive professional and practical knowledge in the
-                  pharmaceutical industry.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="./assets/ismahan.png" className="mgt-img" alt=""/>
-              <br />
-              <span className="adawe-title"> Ismahan Adawe CEO & Founder</span>
-            </div>
-          </div>
-          <hr />
+        
           <div>
             <div className="partner-details">
               <span>Partners & Clients</span>

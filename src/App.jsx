@@ -59,7 +59,7 @@ function App() {
           />
           <hr />
           <div className="title-sub">
-            <span>Pharmaceutical & Medical Supplies</span>
+            <span> Medical Manufacturing and  Supplies</span>
           </div>
         </div>
         <Nav />
