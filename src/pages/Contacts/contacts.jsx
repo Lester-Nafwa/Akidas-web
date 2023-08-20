@@ -73,51 +73,52 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="details-contact">
-          <div className="email-details">
-            <div>
-              {" "}
-              <span>Email : </span>
-            </div>
-            <div>
-              {" "}
-              <span>ismahan.adawe@gmail.com </span>
-            </div>
-          </div>
-        </div>
+
         <div className="details-contact">
           <span></span>
         </div>
         <div className="social-handle">
-        <a href="https://www.facebook.com/profile.php?id=100087974205941"> 
-          <div className="icons-social">
-            <div>
-              <img src={process.env.PUBLIC_URL + "/assets/facebook.png"} className="icon-img" alt=""/>
+          <a href="https://www.facebook.com/profile.php?id=100087974205941">
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/facebook.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <span>Facebook</span>
             </div>
-            <span>Facebook</span>
-          </div>
           </a>
           <a href="https://www.instagram.com/ikadaskenya/">
-          <div className="icons-social">
-            <div>
-              <img src={process.env.PUBLIC_URL + "/assets/instagram.png"} className="icon-img" alt=""/>
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/instagram.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <div>
+                {" "}
+                <span>Instagram</span>
+              </div>
             </div>
-            <div>
-              {" "}
-              <span>Instagram</span>
-            </div>
-          </div>
           </a>
           <a href="https://www.linkedin.com/company/ikadas/">
-          <div className="icons-social">
-            <div>
-              <img src={process.env.PUBLIC_URL + "/assets/linked.pnd.png" }className="icon-img" alt="" />
+            <div className="icons-social">
+              <div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/linked.pnd.png"}
+                  className="icon-img"
+                  alt=""
+                />
+              </div>
+              <div>
+                {" "}
+                <span>LinkedIn</span>
+              </div>
             </div>
-            <div>
-              {" "}
-              <span>LinkedIn</span>
-            </div>
-          </div>
           </a>
         </div>
       </div>
