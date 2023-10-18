@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
 
         <div className="details-contact">
-          <span>AKIDAS Pharmaceuticals & Medical Supplies</span>
+          <span>AKADAS Pharmaceuticals & Medical Supplies</span>
         </div>
 
         <div className="details-contact">
