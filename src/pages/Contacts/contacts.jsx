@@ -78,6 +78,7 @@ const Contact = () => {
           <span></span>
         </div>
         <div className="social-handle">
+          <div className="set-social"> 
           <a href="https://www.facebook.com/profile.php?id=100087974205941">
             <div className="icons-social">
               <div>
@@ -90,6 +91,9 @@ const Contact = () => {
               <span>Facebook</span>
             </div>
           </a>
+         </div>
+         <div className="set-social">
+        
           <a href="https://www.instagram.com/ikadaskenya/">
             <div className="icons-social">
               <div>
@@ -105,6 +109,9 @@ const Contact = () => {
               </div>
             </div>
           </a>
+         
+        </div>
+        <div className="set-social"> 
           <a href="https://www.linkedin.com/company/ikadas/">
             <div className="icons-social">
               <div>
@@ -120,6 +127,7 @@ const Contact = () => {
               </div>
             </div>
           </a>
+          </div>
         </div>
       </div>
     </div>

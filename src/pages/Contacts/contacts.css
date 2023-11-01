@@ -97,6 +97,14 @@ textarea {
   height: 1.2em;
   width: 1.5em;
 }
+@media screen and (max-width: 1280px) {
+  .details-contact {
+    font-size: 1em;
+  }
+  .set-social {
+    padding-left: 1em;
+  }
+}
 @media (max-width: 1100px) {
   .contact-form {
     padding-left: 1em;
@@ -117,11 +125,25 @@ textarea {
     margin-left: 0.5em;
     font-size: 1em;
   }
+  .icons-social {
+    flex-direction: column;
+  }
+  .set-social {
+    padding-left: 1em;
+  }
+  .details-contact {
+    font-size: 0.8em;
+  }
+  .details-title {
+    font-size: 1.5em;
+    font-family: lato;
+    color: rgb(213, 213, 141);
+}
 }
 @media (max-width: 920px) {
   .contact-section {
     gap: 1em;
-   width: 70%;
+    width: 70%;
     margin-left: 6em;
   }
   .contact-form {
@@ -166,12 +188,12 @@ textarea {
     width: 90%;
   }
   .btn-icon-sub {
-    margin-left:-1em;
-}
-.contact-details {
- margin-top: 1em;
-  margin-left: 1em;
-}
+    margin-left: -1em;
+  }
+  .contact-details {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
 }
 @media (width: 768px) {
   .contact-title {
@@ -181,27 +203,26 @@ textarea {
     width: 105%;
   }
 }
-@media(max-width:300px){
+@media (max-width: 300px) {
   .contact-section {
     flex-direction: column;
     margin-left: 0em;
     width: 100%;
     padding: 0.5em;
-}
-.contact-form{
-  width: 85%;
-}
-input {
-  width: 71%;
-}
-.contact-details {
-  margin-top: 1em;
-  margin-left: 0.1em;
-}
-.social-handle{
-  flex-direction: column;
-  margin-left: 5em;
-  gap: 1em;
-}
-
+  }
+  .contact-form {
+    width: 85%;
+  }
+  input {
+    width: 71%;
+  }
+  .contact-details {
+    margin-top: 1em;
+    margin-left: 0.1em;
+  }
+  .social-handle {
+    flex-direction: column;
+    margin-left: 5em;
+    gap: 1em;
+  }
 }

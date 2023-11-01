@@ -32,7 +32,7 @@ const About = () => {
 
             <div className="distributor">
               {" "}
-              <p>
+              <p className="overview">
                 {" "}
                 Since the formation of AKIDAS, it secured an exclusive
                 distributor contract with BI-MED a medical devices manufacturer
